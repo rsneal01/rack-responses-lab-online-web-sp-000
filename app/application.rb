@@ -8,8 +8,8 @@ class Application
     resp.write "#{num_2}\n"
     resp.write "#{num_3}\n"
  
-    if t < 12
-      resp.write "You Win"
+    if t < 43000
+      resp.write "Good Morning!"
     else
       resp.write "You Lose"
     end
