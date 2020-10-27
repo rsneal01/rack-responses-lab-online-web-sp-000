@@ -6,7 +6,7 @@ class Application
     
     
  
-    if t < 43000
+    if t < 1200
       resp.write "Good Morning!"
     else
       resp.write "You Lose"
